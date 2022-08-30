@@ -106,3 +106,10 @@ h1 {
   width: 400px;
 }
 
+.add-bg-image button {
+  margin: 0 40px 10px;
+  padding: 7px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+

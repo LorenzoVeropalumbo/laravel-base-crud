@@ -43,11 +43,10 @@
       <div class="input-box">
         <div class="input">
           <label for=""></label>
-          <textarea name="description" id="description" cols="30" rows="10" placeholder="Descrizione: " name="description"></textarea>
+          <textarea name="description" id="description" cols="30" rows="10"></textarea>
         </div>
-      </div>
-      
-      <button>Salva</button>
+      </div>     
+      <button>salva</button>
     </form>
   </div>
 @endsection
