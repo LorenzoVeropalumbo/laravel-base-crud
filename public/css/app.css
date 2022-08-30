@@ -24,6 +24,23 @@ a {
   color: inherit;
 }
 
+header {
+  padding: 18px 20px;
+}
+
+header .nav-menu {
+  display: flex;
+}
+
+header .nav-menu li {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+header .nav-menu a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 40px;
   padding: 10px 20px;
@@ -48,7 +65,7 @@ h1 {
   width: 300px;
 }
 
-.container-comics a {
+.container-comics a:hover {
   text-decoration: underline;
 }
 

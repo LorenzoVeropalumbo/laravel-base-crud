@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <ul>
+    <ul class="nav-menu">
       <li><a href="{{ route('home') }}">Home</a></li>
       <li><a href="{{ route('comics.index') }}">Prodotti</a></li>
       <li><a href="{{ route('comics.create') }}">Aggiungi un prodotto</a></li>
