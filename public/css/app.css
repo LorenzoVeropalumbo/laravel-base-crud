@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 10px 20px;
+}
+
+.container-comics {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+.container-comics .card-comic {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-comics .card-comic .comic-thumb {
+  width: 300px;
+}
+
+.container-comics a {
+  text-decoration: underline;
+}
+
+.container-comics .highlited-text {
+  font-size: 20px;
+}
+
+.card-single-comic {
+  display: flex;
+  padding: 40px;
+  flex-wrap: nowrap;
+}
+
+.card-single-comic .comic-thumb {
+  width: 270px;
+  flex-shrink: 0;
+}
+
+.card-single-comic .comic-description {
+  width: 450px;
+  font-size: 16px;
+  padding: 0 8px;
+}
+
+.card-single-comic .highlited-text {
+  font-size: 18px;
+}
+
+.add-bg-image {
+  background-color: grey;
+}
+
+.add-bg-image h1 {
+  font-size: 35px;
+  padding: 12px 50px;
+  text-transform: uppercase;
+}
+
+.add-bg-image .input-box {
+  display: flex;
+  padding: 0 30px;
+}
+
+.add-bg-image .input-box .input {
+  padding: 10px 10px;
+}
+
+.add-bg-image .input-box .input input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.add-bg-image .input-box .input textarea {
+  padding: 8px;
+  width: 400px;
+}
+

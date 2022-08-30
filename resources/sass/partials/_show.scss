@@ -1,0 +1,22 @@
+
+.card-single-comic{
+  display: flex;
+  padding: 40px;
+  flex-wrap: nowrap;
+
+  .comic-thumb{
+    width: 270px;
+    flex-shrink: 0;
+  }
+
+  .comic-description{
+    width: 450px;
+    font-size: 16px;
+    padding: 0 8px;
+  }
+
+  .highlited-text{
+    font-size: 18px;
+  }
+} 
+
