@@ -12,7 +12,15 @@
         <div>EDIZIONE: {{ $comic->series }}</div> 
         <div>PREZZO: {{ $comic->price }}&euro;</div>
         <div class="highlited-text"><a href="{{ route('comics.show', ['comic' => $comic->id]) }}">Ulteriori dettagli</a></div>
-        <br> 
+        <div class="highlited-text"><a href="{{ route('comics.edit', ['comic' => $comic->id]) }}">Modifica prodotto</a></div>
+        <div>
+          <form action="{{ route('comics.destroy', ['comic' => $comic->id]) }}" method="post">
+              @csrf
+              @method('DELETE')
+
+              <input type="submit" value="Cancella" onClick="return confirm('Sei sicuro di voler cancellare?');">
+          </form>
+        </div>
       </div> 
     @endforeach
   </div>

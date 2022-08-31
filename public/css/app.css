@@ -58,7 +58,7 @@ h1 {
 .container-comics .card-comic {
   width: 300px;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .container-comics .card-comic .comic-thumb {
